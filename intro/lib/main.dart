@@ -50,7 +50,7 @@ class myhome extends StatelessWidget {
               ),
             ),
             Text(
-              'Flutter Developer',
+              'Developer',
               style: TextStyle(
                 fontSize: 20.0,
                 color: Colors.lime,

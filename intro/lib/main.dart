@@ -3,6 +3,7 @@ import 'package:flutter/rendering.dart';
 
 void main() {
   runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
     title: "My First App",
     home: myhome(),
   ));
@@ -44,7 +45,7 @@ class myhome extends StatelessWidget {
               overflow: TextOverflow.fade,
               style: TextStyle(
                 fontFamily: 'Pacifico',
-                fontSize: 50.0,
+                fontSize: 35.0,
                 letterSpacing: 2.0,
                 color: Colors.black,
               ),

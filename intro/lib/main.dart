@@ -37,23 +37,24 @@ class myhome extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             CircleAvatar(
-              radius: 70.0,
+              radius: 60.0,
               backgroundImage: AssetImage('images/divas.jpg'),
             ),
             Text(
               "DIVAS BHADANI",
               overflow: TextOverflow.fade,
               style: TextStyle(
-                fontFamily: 'Pacifico',
-                fontSize: 35.0,
+                fontFamily: 'ArchitectsDaughter',
+                fontSize: 20.0,
                 letterSpacing: 2.0,
                 color: Colors.black,
               ),
             ),
             Text(
-              'Developer',
+              'Flutter Developer',
               style: TextStyle(
-                fontSize: 20.0,
+                fontFamily: 'BerkshireSwash',
+                fontSize: 25.0,
                 color: Colors.lime,
                 fontWeight: FontWeight.bold,
                 letterSpacing: 2.0,

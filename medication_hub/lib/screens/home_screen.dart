@@ -81,16 +81,16 @@ class _HomeScreenState extends State<HomeScreen> {
                   'Are you feeling sick?',
                   style: const TextStyle(
                     color: Colors.white,
-                    fontSize: 22.0,
+                    fontSize: 23.0,
                     fontWeight: FontWeight.w600,
                   ),
                 ),
                 SizedBox(height: screenHeight * 0.02),
                 Text(
-                  'If you feel sick with any COVID-19 symptoms, please call or text us immediately for help',
+                  'If you feel sick with any COVID-19 symptoms, please Call or E-mail us immediately for help',
                   style: const TextStyle(
                     color: Colors.white70,
-                    fontSize: 15.0,
+                    fontSize: 16.0,
                   ),
                 ),
                 SizedBox(height: screenHeight * 0.02),
@@ -137,7 +137,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         color: Colors.black,
                       ),
                       label: Text(
-                        'Send E-mail',
+                        'E-mail Now',
                         style: Styles.buttonTextStyle,
                       ),
                       textColor: Colors.black,
@@ -206,7 +206,7 @@ class _HomeScreenState extends State<HomeScreen> {
         height: screenHeight * 0.15,
         decoration: BoxDecoration(
           gradient: LinearGradient(
-            colors: [Color(0xFFAD9FE4), Palette.primaryColor],
+            colors: [Color(0xFF2E2852), Color(0xFF274969)],
           ),
           borderRadius: BorderRadius.circular(20.0),
         ),

@@ -199,11 +199,11 @@ class _HomeScreenState extends State<HomeScreen> {
     return SliverToBoxAdapter(
       child: Container(
         margin: const EdgeInsets.symmetric(
-          vertical: 10.0,
-          horizontal: 10.0,
+          vertical: 15.0,
+          horizontal: 5.0,
         ),
         padding: const EdgeInsets.all(10.0),
-        height: screenHeight * 0.15,
+        height: screenHeight * 0.16,
         decoration: BoxDecoration(
           gradient: LinearGradient(
             colors: [Color(0xFF2E2852), Color(0xFF274969)],
